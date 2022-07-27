@@ -17,7 +17,7 @@ const ContentSecurityPolicy = `
 const securityHeaders = [
   {
     key: 'X-Powered-By',
-    value: 'DscJobs',
+    value: 'Infinity Development',
   },
   {
     key: 'Content-Security-Policy',
@@ -52,7 +52,7 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   images: {
-    domains: ['cdn.discordapp.com', 'media.discordapp.net']
+    domains: ['cdn.discordapp.com', 'media.discordapp.net'],
   },
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],

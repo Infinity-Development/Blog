@@ -11,15 +11,13 @@ export default function Footer() {
           <SocialIcon kind="github" href={siteMetadata.github} size={6} />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
         </div>
-        <div className="mb-2 flex space-x-2 text-sm text-amber-400 dark:text-amber-400">
+        <div className="mb-2 flex space-x-2 text-sm text-white/50 dark:text-white/50">
           <div></div>
           <div>{`© 2020 - ${new Date().getFullYear()}`}</div>
           <Link href="https://infinitydev.team/">Infinity Development</Link>
         </div>
-        <div className="mb-8 text-sm text-amber-400 dark:text-amber-400">
-          <Link href="https://nextjs.org/">
-            Powered by: Next.js
-          </Link>
+        <div className="mb-8 text-sm text-white/50 dark:text-white/50">
+          <Link href="https://nextjs.org/">Powered by: Next.js</Link>
         </div>
       </div>
     </footer>

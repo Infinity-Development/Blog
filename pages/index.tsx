@@ -25,9 +25,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-white dark:text-white sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Latest
           </h1>
-          <p className="text-lg leading-7 text-amber-400/80">
-            {siteMetadata.description}
-          </p>
+          <p className="text-lg leading-7 text-white/70">{siteMetadata.description}</p>
         </div>
         <ul className="divide-y divide-amber-500/50 dark:divide-amber-500/50">
           {!posts.length && 'No posts found.'}
@@ -67,7 +65,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={`/blog/${slug}`}
-                          className="text-amber-500 hover:text-amber-600 dark:hover:text-amber-400"
+                          className="text-white/50 hover:text-white dark:hover:text-white"
                           aria-label={`Read "${title}"`}
                         >
                           Read more &rarr;

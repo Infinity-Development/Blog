@@ -25,9 +25,13 @@ class MyDocument extends Document {
             href="/static/favicons/favicon-16x16.png"
           />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
-          <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="msapplication-TileColor" content="#000000" />
-          <meta name="theme-color" content="#000000" />
+          <link
+            rel="mask-icon"
+            href="/static/favicons/safari-pinned-tab.svg"
+            color="rgba(109, 40, 217)"
+          />
+          <meta name="msapplication-TileColor" content="rgba(109, 40, 217)" />
+          <meta name="theme-color" content="rgba(109, 40, 217)" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link
             rel="stylesheet"
@@ -35,9 +39,12 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
-          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
-        <body className="th-bgcolor text-black antialiased dark:th-bgcolor dark:text-white">
+        <body className="th-bgcolor dark:th-bgcolor text-white antialiased dark:text-white">
           <Main />
           <NextScript />
         </body>
